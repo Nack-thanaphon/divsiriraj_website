@@ -9,11 +9,12 @@ export default function Home() {
       <div className="navbar">
         <nav className=" flex justify-around py-8 mx-auto bg-gradient-to-r from-blue-900 to-blue-600 text-white">
           <div className="flex items-center">
-            <Image
+            <h1 className="text-3xl">DivisionSiriraj</h1>
+            {/* <Image
               src="https://www.si.mahidol.ac.th/th/division/assets_template/img/Siriraj_Logo.png"
               alt=""
              layout="fill"
-            />
+            /> */}
           </div>
 
           <div className="items-center hidden space-x-8 lg:flex">
