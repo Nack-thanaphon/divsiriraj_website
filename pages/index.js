@@ -1,6 +1,6 @@
 // import Head from "next/head";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   let news = "ประกาศสำนักงาน";
@@ -9,9 +9,10 @@ export default function Home() {
       <div className="navbar">
         <nav className=" flex justify-around py-8 mx-auto bg-gradient-to-r from-blue-900 to-blue-600 text-white">
           <div className="flex items-center">
-            <img
+            <Image
               src="https://www.si.mahidol.ac.th/th/division/assets_template/img/Siriraj_Logo.png"
               alt=""
+             layout="fill"
             />
           </div>
 
@@ -39,10 +40,13 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="my-3">
                 <div className="p-1 sm:p-4 text-start bg-gray-100 shadow-lg">
-                  <img
+                  {/* <Image
                     src="https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
                     alt=""
-                  />
+                    layout="fill"
+                    width="20px"
+                    objectFit="contain"
+                  /> */}
                   <h1 className="text-xl py-2 font-bold">กิจกรรมหาวิทยาลัย</h1>
                   <small>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -56,10 +60,13 @@ export default function Home() {
               </div>
               <div className="my-3">
                 <div className="p-1 sm:p-4 text-start bg-gray-100 shadow-lg">
-                  <img
+                  {/* <Image
                     src="https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
                     alt=""
-                  />
+                    layout="fill"
+                    width="20px"
+                    objectFit="contain"
+                  /> */}
                   <h1 className="text-xl py-2 font-bold">กิจกรรมหาวิทยาลัย</h1>
                   <small>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -73,10 +80,13 @@ export default function Home() {
               </div>
               <div className="my-3">
                 <div className="p-1 sm:p-4 text-start bg-gray-100 shadow-lg">
-                  <img
+                  {/* <Image
                     src="https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"
                     alt=""
-                  />
+                    layout="fill"
+                    width="20px"
+                    objectFit="contain"
+                  /> */}
                   <h1 className="text-xl py-2 font-bold">กิจกรรมหาวิทยาลัย</h1>
                   <small>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
