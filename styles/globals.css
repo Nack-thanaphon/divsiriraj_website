@@ -25,3 +25,15 @@ nav img{
 .news_img{
   overflow: hidden;
 }
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  color: aliceblue;
+  transition: 0.5s;
+}

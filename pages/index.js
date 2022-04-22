@@ -1,6 +1,6 @@
 // import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
+
 import Card from "./components/Card.js";
 import Headers from "./components/Header.js";
 
@@ -21,7 +21,11 @@ export default function index() {
                 </h5>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
+              <div className="my-3">
+                <Card />
+               
+              </div>
               <div className="my-3">
                 <Card />
                
