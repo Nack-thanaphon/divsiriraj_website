@@ -16,7 +16,7 @@ const Card = () => (
       <h1 className="text-xl py-1 font-bold text-blue-400">กิจกรรมหาวิทยาลัย</h1>
       <small>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, iure!
-      </small>{" "}
+      </small>
       <br />
       <small className="text-gray-500">
         10 day ago | <span>Admin</span>
