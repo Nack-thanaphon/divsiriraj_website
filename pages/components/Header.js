@@ -1,34 +1,43 @@
-
-import Link from 'next/link'
-import Image from "next/image";
-
-
-const Headers = () => (
-  <>
-    <div className="navbar">
-      <nav className=" flex justify-around py-8 mx-auto bg-gradient-to-r from-blue-900 to-blue-600 text-white">
-        <div className="flex items-center">
-          <img
-            src="https://www.si.mahidol.ac.th/th/division/assets_template/img/Siriraj_Logo.png"
-            layout="responsive"
-            alt=""
-            width="100%"
-            height="100%" />
+const Header = () => {
+  return (
+    <header className="container p-3 bg-primary text-white">
+      <div className="row ">
+        <div className="col-12 col-sm-4">
+          <a href="#" className=" text-white text-decoration-none">
+            <h4 className="fw-bold">DivisionSiriraj</h4>
+            <small>ฝ่ายวิศวกรรมบริการและอาคารสถานที่</small>
+          </a>
         </div>
 
-        <div className="items-center hidden space-x-8 lg:flex">
-          <a href="">หน้าหลัก</a>
-          <a href="">เกี่ยวเรา</a>
-          <a href="">ข่าวสาร</a>
-          <a href="">ติดต่อเรา</a>
-          <a href="">ดาวน์โหลด</a>
-        </div>
-
-        <div className="flex items-center space-x-2"></div>
-      </nav>
-    </div>
-
-  </>
-)
-
-export default Headers
+        <ul className="nav col-12 col-sm-8 d-none  col-sm-8 d-flex  justify-content-end ">
+          <li>
+            <a href="#" className="nav-link px-2 text-white">
+              เกี่ยวกับเรา
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link px-2 text-white">
+              ข่าวและบทความ
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link px-2 text-white">
+              ดาวน์โหลด
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link px-2 text-white">
+              หน่วยงานภายใน
+            </a>
+          </li>
+          <li>
+            <a href="#" className="nav-link px-2 text-white">
+              ติดต่อเรา
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
+};
+export default Header;

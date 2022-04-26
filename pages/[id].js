@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Headers from "./components/Header.js";
-
+import hello from "./api/hello"
 import Image from "next/image";
 
 export default () => {

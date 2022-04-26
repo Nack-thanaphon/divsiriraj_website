@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "tailwindcss/tailwind.css";
+import 'bootstrap/dist/css/bootstrap.css'; // Add this line
 import Router from "next/router";
 import { useState } from "react";
 import Loader from "./components/Loader";
@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
   Router.events.on("routeChangeStart", (url) => {
     // setTimeout(function () {
-      setLoading(true);
+    setLoading(true);
     // }, 300);
   });
   Router.events.on("routeChangeComplete", (url) => {

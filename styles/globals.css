@@ -1,14 +1,9 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities'; 
 
 html,
 body {
-  position: relative;
-
-  padding: 0;
-  margin: 0;
-  font-family: 'Noto Sans Thai', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Noto Sans Thai', sans-serif !important;
 }
 
 a {
@@ -19,13 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
-nav img{
-  height: 60px;
 
+.carousel-inner{
+  overflow: hidden;
+  height: 350px;
 }
 
-.news_img{
-  overflow: hidden;
+.carousel-inner img{
+  object-fit: cover;
+  height: 100%;
 }
 
 .loader {
@@ -43,7 +40,7 @@ nav img{
   align-items: center;
   background-color: aliceblue;
   height: 100vh;
-  z-index: 99;
+  z-index:100;
 }
 .loader:before, .loader:after {
   content: "";
