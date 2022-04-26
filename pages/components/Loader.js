@@ -1,7 +1,9 @@
 export default function Loader() {
   return (
-    
-      <div>Loading...</div>
-  
+
+    <div className="loader_bg">
+      <div className="loader"></div>
+    </div>
+
   );
 }
