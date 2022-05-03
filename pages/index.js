@@ -41,37 +41,31 @@ export default function Home() {
 
           <div className="col-12 col-sm-4 m-0 p-1">
             <div className="card p-2 bg-light shadow-sm">
-              <h1>ข่าวสาร</h1>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius?
-              </small>
+              <h1 className="text-primary">ข่าวสาร</h1>
+              <p className="text-uppercase fw-bold">newsupdate</p>
+
+              <Link href="./[id].js">
+                <a>อ่านเพิ่มเติม</a>
+              </Link>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-4 m-0 p-1">
+            <div className="card p-2 bg-light shadow-sm">
+              <h1 className="text-primary">ข้อมูลสถิติ</h1>
+              <p className="text-uppercase fw-bold">Data-stactic</p>
+
               <Link href="./[id].js" className="btn btn-success">
-                Readmore
+                <a>อ่านเพิ่มเติม</a>
               </Link>
             </div>
           </div>
           <div className="col-12 col-sm-4 m-0 p-1">
             <div className="card p-2 bg-light shadow-sm">
-              <h1>ข้อมูลสถิติ</h1>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius?
-              </small>
+              <h1 className="text-primary">วาระการประชุม</h1>
+              <p className="text-uppercase fw-bold">Agenda</p>
               <Link href="./[id].js" className="btn btn-success">
-                Readmore
-              </Link>
-            </div>
-          </div>
-          <div className="col-12 col-sm-4 m-0 p-1">
-            <div className="card p-2 bg-light shadow-sm">
-              <h1>วาระการประชุม</h1>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <small>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius?
-              </small>
-              <Link href="./[id].js" className="btn btn-success">
-                Readmore
+                <a>อ่านเพิ่มเติม</a>
               </Link>
             </div>
           </div>
@@ -79,7 +73,7 @@ export default function Home() {
             <div className="col-12 col-md-8  p-1">
               <div className="card h-100 p-3">
                 <h3 className="p-0 my-2">ประมวณภาพกิจกรรม</h3>
-                <ul>
+                <ul className="m-0 p-0">
                   <Activity />
                   <Activity />
                   <Activity />
@@ -90,7 +84,7 @@ export default function Home() {
             <div className="col-12 col-md-4 p-1">
               <div className="card p-3">
                 <h3 className="p-0 my-2">กิจกรรมที่กำลังมา</h3>
-                <ul>
+                <ul className="m-0 p-0">
                   <Activity />
                   <Activity />
                   <Activity />
@@ -99,7 +93,7 @@ export default function Home() {
               </div>
               <div className="card p-3 mt-sm-1">
                 <h3 className="p-0 my-2">ประกาศรับสมัครงาน</h3>
-                <ul>
+                <ul className="m-0 p-0">
                   <Activity />
                   <Activity />
                   <Activity />

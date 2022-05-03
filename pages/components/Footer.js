@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className="text-center text-muted">© 2022 Division | <span className="text-primary">Siriraj Mahidol University</span> , IT Support</p>
+        <p className="text-center text-muted sm-row">© 2022 Division | <span className="text-primary">Siriraj Mahidol University</span> , IT Support</p>
       </footer>
     </div>
   );
