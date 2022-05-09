@@ -55,7 +55,7 @@ export default function Home() {
               <h1 className="text-primary">ข้อมูลสถิติ</h1>
               <p className="text-uppercase fw-bold">Data-stactic</p>
 
-              <Link href="./Testapi" className="btn btn-success">
+              <Link href="./Te stapi" className="btn btn-success">
                 <a>อ่านเพิ่มเติม</a>
               </Link>
             </div>
