@@ -16,7 +16,7 @@ export default function stactic() {
                     <div className="col-12 m-0 ">
 
 
-                        <iframe width="100%" height="450" src="https://datastudio.google.com/embed/reporting/f0dee039-2d7e-44fd-8ef2-a340ebfdd378/page/xI6sC" ></iframe>
+                        <iframe width="100%" height="2000" src="https://datastudio.google.com/embed/reporting/f0dee039-2d7e-44fd-8ef2-a340ebfdd378/page/xI6sC" ></iframe>
                     </div>
                 </div>
             </div>
