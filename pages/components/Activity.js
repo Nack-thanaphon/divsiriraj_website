@@ -13,7 +13,7 @@ export default function Activity() {
               <div className="row m-0 p-0 d-flex justify-content-between">
                 <div className="col-4 m-0 p-0">
                   <img width="100%"
-                    src="https://lasd.lv/public/assets/no-image.png"
+                    src="https://images.unsplash.com/photo-1650831174246-7e7b2e3b77e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt=""
                   ></img>
                 </div>

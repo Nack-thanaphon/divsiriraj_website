@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="d-flex flex-column min-vh-100">
+    <>
       <Header />
       <div className="container">
         <div className="row">
@@ -105,6 +105,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </main>
+    </>
   );
 }
