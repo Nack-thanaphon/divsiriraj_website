@@ -15,6 +15,10 @@ export default function stactic() {
           </div>
           <div className="col-12 m-0 ">
             <Static_list />
+            <Static_list />
+            <Static_list />
+            <Static_list />
+            <Static_list />
           </div>
         </div>
       </div>

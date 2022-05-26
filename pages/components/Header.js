@@ -3,7 +3,7 @@ const Header = () => {
     <header className="container p-3 bg-primary text-white">
       <div className="row ">
         <div className="col-12 col-sm-4">
-          <a href="#" className=" text-white text-decoration-none">
+          <a href="./" className=" text-white text-decoration-none">
             <h4 className="fw-bold">DivisionSiriraj</h4>
             <small>ฝ่ายวิศวกรรมบริการและอาคารสถานที่</small>
           </a>

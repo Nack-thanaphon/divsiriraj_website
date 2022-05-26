@@ -20,8 +20,8 @@ export default function Home() {
                 <p>ฝ่ายวิศวกรรมบริการและอาคารสถานที่</p>
                 <small>ข้อมูลประจำปี 2565</small>
               </div>
-              <div className="col-sm-8 col-12">
-                <div className="row">
+              <Link href="./employee" className="col-sm-8 col-12">
+                <div className="row m-0 p-0">
                   <div className="col-sm-4 col-12">
                     <p className="text-primary">จำนวนพนักงาน</p>
                     <h1 className="fw-bold">20</h1>
@@ -35,7 +35,7 @@ export default function Home() {
                     <h1 className="fw-bold">0</h1>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
 
